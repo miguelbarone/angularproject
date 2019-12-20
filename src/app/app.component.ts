@@ -4,7 +4,16 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
+
 })
 export class AppComponent {
-  title = 'jogodaveia';
+
+  constructor() {
+  }
+
+  jogarJogo(){
+    document.querySelector("app-pagina-inicial").classList.add("apagar");
+    document.querySelector("app-jogo").classList.remove("apagar");
+  }
+
 }

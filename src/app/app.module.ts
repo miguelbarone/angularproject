@@ -1,16 +1,20 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { JogoComponent } from './jogo/jogo.component';
+import { PaginaInicialComponent } from './pagina-inicial/pagina-inicial.component';
+import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    JogoComponent,
+    PaginaInicialComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    SweetAlert2Module
   ],
   providers: [],
   bootstrap: [AppComponent]

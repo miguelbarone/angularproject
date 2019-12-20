@@ -1,0 +1,67 @@
+@font-face {
+    font-family: myfont;
+    src: url("/assets/images/PERRYGOT.TTF");
+}
+#jogo{
+    width:603px;
+    height:600px;
+    border:solid 3px white;
+    position: fixed;
+    left: 265px;
+    top: 20px
+}
+ 
+.linha{
+    height:200px;
+    border-bottom:solid 1px;
+    color: white;
+}
+ 
+.casa{
+    width:200px;
+    height:100%;
+    border-right:solid 1px;
+    float:left;
+}
+.cav{
+    position: fixed;
+    left: 55em;
+    top: 1.5em;
+    transform: scaleX(-1);
+    cursor: pointer;
+    height: 600px;
+}
+h1{
+    left: 40.5em;
+    top: 4.5em;
+    position: fixed;
+    color: aquamarine;
+    font-family: myfont;
+    background-color: rgb(0, 0, 0, 0.5);
+    font-size: 26px;
+}
+@keyframes mymove1{
+    0% {top: 800px;}
+    100% {top: -200px;}
+}
+.animm2{  
+    width: 300px;
+    height: 100px;
+    animation: mymove1 10s infinite linear;
+    position: fixed;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+.geral1{
+    display: block;
+    height:40em; background-size:cover; width:auto;
+    background-image: url('/assets/images/tav.gif');
+    background-position:50% 50%;
+}
+.animm2 img{  
+    width:260px;
+    height:250px
+
+}

@@ -1,0 +1,9 @@
+.apagar {
+    display: none;
+}
+app-jogo{
+    height:40em; background-size:cover; width:auto;
+    background-image:url('/assets/images/city.jpg');
+    background-position:50% 50%;
+    
+}

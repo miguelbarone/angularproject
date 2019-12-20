@@ -1,0 +1,72 @@
+@font-face {
+    font-family: myfont;
+    src: url("/assets/images/PERRYGOT.TTF");
+}
+.geral{
+    height:40em; background-size:cover; width:auto;
+     background-image:url('/assets/images/city.jpg');
+     background-position:50% 50%;
+}
+.title h1 {
+    font-family: myfont;
+    text-align: center;
+    font-size: 70px;
+    text-shadow: -5px 5px rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
+
+}
+
+.animm{  
+    width: 300px;
+    height: 100px;
+    animation: mymove 10s infinite linear;
+    position: fixed;
+    animation-duration: 3.8s;
+    animation-fill-mode: forwards;
+    top: 400px;
+    animation-delay: 2s;
+}
+@keyframes mymove {
+    0% {left: -400px;}
+    100% {left: 1400px;}
+} 
+.animm1{  
+    width: 300px;
+    height: 100px;
+    animation: mymove 10s infinite linear;
+    position: fixed;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    top: 200px;
+    animation-delay: 2s;
+}
+@keyframes mymove {
+    0% {left: -400px;}
+    100% {left: 1400px;}
+} 
+.animm2{  
+    width: 300px;
+    height: 100px;
+    animation: mymove1 10s infinite linear;
+    position: fixed;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    left: 500px;
+    animation-delay: 2s;
+}
+@keyframes mymove1 {
+    0% {top: 800px;}
+    100% {top: -200px;}
+} 
+.animm img{
+    width: 300px;
+    height: 150px;
+}
+.animm1 img{
+    width: 300px;
+    height: 150px;
+}
+.animm2 img{
+    width: 300px;
+    height: 250px;
+}
